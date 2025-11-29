@@ -17,18 +17,18 @@
     "db:studio": "turbo -F @onebase/db db:studio",
     "db:generate": "turbo -F @onebase/db db:generate",
     "db:migrate": "turbo -F @onebase/db db:migrate",
-    "db:start": "turbo -F @onebase/db db:start",
-    "db:watch": "turbo -F @onebase/db db:watch",
-    "db:stop": "turbo -F @onebase/db db:stop",
-    "db:down": "turbo -F @onebase/db db:down"
+    "docker:start": "docker compose up -d",
+    "docker:watch": "docker compose up",
+    "docker:stop": "docker compose stop",
+    "docker:down": "docker compose down"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
     "zod": "^4.1.11"
   },
   "devDependencies": {
-    "turbo": "^2.5.4",
-    "@types/node": "^22.13.11"
+    "@types/node": "^22.13.11",
+    "turbo": "^2.5.4"
   },
-  "packageManager": "pnpm@10.18.1"
+  "packageManager": "pnpm@10.24.0"
 }
