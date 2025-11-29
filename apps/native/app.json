@@ -1,0 +1,17 @@
+{
+	"expo": {
+		"scheme": "onebase",
+		"userInterfaceStyle": "automatic",
+		"orientation": "default",
+		"web": {
+			"bundler": "metro"
+		},
+		"name": "onebase",
+		"slug": "onebase",
+		"plugins": ["expo-font"],
+		"experiments": {
+			"typedRoutes": true,
+			"reactCompiler": true
+		}
+	}
+}
